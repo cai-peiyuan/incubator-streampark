@@ -13,6 +13,8 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
+ * <!-- 登录页左侧 logo 和 介绍 -->
  */
 import { Tag } from 'ant-design-vue';
 import { defineComponent } from 'vue';
@@ -30,45 +32,46 @@ export default defineComponent({
               <div
                 className="animated-gradient-text_background animated-gradient-text_background-1"
                 style={{
-                  '--content': '"Apache"',
+                  '--content': '"MapAbc"',
                   '--start-color': '#00DFD8',
                   '--end-color': '#FFF',
                 }}
               >
                 <span className="animated-gradient-text_foreground animated-gradient-text_foreground-1">
-                  Apache
+                  北京图盟
                 </span>
               </div>
               <div className="flex  items-start">
                 <div
                   className="animated-gradient-text_background animated-gradient-text_background-2"
                   style={{
-                    '--content': '"StreamPark"',
+                    '--content': '"数字孪生数据管理平台"',
                     '--start-color': '#FFF',
                     '--end-color': '#00DFD8',
                   }}
                 >
                   <span className="animated-gradient-text_foreground animated-gradient-text_foreground-2">
-                    StreamPark
+                    Digital twin data management platform
                   </span>
                 </div>
-                <span className="badge bg-secondary-home text-xl tag">Incubating</span>
+                <span className="badge bg-secondary-home text-xl tag">2023</span>
               </div>
             </div>
             <p className=" text-light-200 leading-40px" style={{ fontSize: '18px' }}>
-              <div>Make stream processing easier!</div>
-              <div>easy-to-use streaming application development framework</div>
-              <div>and operation platform</div>
+              <div>让流处理更简单！</div>
+              <div>易于使用的流式应用程序开发框架</div>
+              <div>及运营平台</div>
             </p>
           </div>
-          <div className="flex items-center mt-10">
+
+          <div className="flex items-center mt-10" style="display:none;">
             <a
               className="btn streampark-btn btn !flex items-center"
-              href="https://github.com/apache/incubator-streampark"
+              href="https://www.mapabc.com"
               target="_blank"
             >
               <Icon icon="ant-design:github-filled"></Icon>
-              <div>&nbsp; GitHub</div>
+              <div>&nbsp; MapAbc</div>
             </a>
             <a
               className="btn streampark-btn btn-green !flex items-center ml-10px"
@@ -80,7 +83,7 @@ export default defineComponent({
             </a>
           </div>
 
-          <div className="mt-20px shields z-3 flex items-center">
+          <div className="mt-20px shields z-3 flex items-center" style="display:none;">
             <Tag color="#477de9">Version: v{version}</Tag>
             <img
               src="https://img.shields.io/github/stars/apache/incubator-streampark.svg?sanitize=true"
@@ -91,6 +94,7 @@ export default defineComponent({
               className="wow fadeInUp"
             ></img>
           </div>
+
         </div>
       );
     };

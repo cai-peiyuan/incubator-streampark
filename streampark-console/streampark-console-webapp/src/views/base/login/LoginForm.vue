@@ -17,7 +17,7 @@
 <template>
   <div class="enter-x mb-50px text-light-50">
     <div class="text-center enter-x">
-      <img class="logo w-160px mx-auto my-20px" src="/@/assets/images/logo.png" />
+      <img class="logo w-660px mx-auto my-0px" :src="logoImg"  v-if="true"/>
     </div>
   </div>
   <Form
@@ -65,13 +65,15 @@
         {{ loginText.buttonText }}
       </Button>
     </FormItem>
-    <FormItem class="enter-x text-left">
+    <FormItem class="enter-x text-left" v-if="false">
       <Button type="link" @click="changeLoginType"> {{ loginText.linkText }} </Button>
     </FormItem>
   </Form>
   <TeamModal v-model:visible="modelVisible" :userId="userId" @success="handleTeamSuccess" />
 </template>
 <script lang="ts" setup>
+  import logoImg from '/@/assets/images/logo.svg';
+
   import { reactive, ref, unref, computed } from 'vue';
   import { UserOutlined, LockOutlined } from '@ant-design/icons-vue';
 

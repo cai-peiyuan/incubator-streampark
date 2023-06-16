@@ -1,0 +1,26 @@
+<svg data-v-6805eed4="" version="1.0"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 340.000000 250.000000" >
+    <g fill="#f05674" transform="translate(82.875,74.34331512469572)">
+        <g transform="translate(57.125,0)">
+            <g>
+                <svg x="0" y="0" width="60" height="36.74961872270575" style="overflow: visible;">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0.023092104122042656 -0.03984662517905235 1214.7691650390625 744.0399169921875">
+                        <g >
+                            <g>
+                                <path d="M1118.61 744a96.25 96.25 0 0 1-87.38-55.8L775.66 136.74A96.24 96.24 0 1 1 950.3 55.8l255.57 551.43A96.29 96.29 0 0 1 1118.61 744z" fill="#36b0e2" style="mix-blend-mode:multiply"></path>
+                                <path d="M607.35 744a96.29 96.29 0 0 1-87.26-136.74L775.66 55.8a96.24 96.24 0 1 1 174.64 80.94L694.73 688.16A96.26 96.26 0 0 1 607.35 744z" fill="#f05674" style="mix-blend-mode:multiply"></path>
+                                <path d="M607.47 744a96.25 96.25 0 0 1-87.38-55.8L264.52 136.74A96.24 96.24 0 1 1 439.16 55.8l255.57 551.42A96.29 96.29 0 0 1 607.47 744z" fill="#f7a400" style="mix-blend-mode:multiply"></path>
+                                <path d="M96.2 744A96.29 96.29 0 0 1 8.95 607.22L264.52 55.8a96.24 96.24 0 1 1 174.64 80.94L183.59 688.16A96.26 96.26 0 0 1 96.2 744z" fill="#00cc8c" style="mix-blend-mode:multiply"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </svg>
+                <!---->
+            </g>
+        </g>
+
+    </g>
+    <defs ></defs>
+</svg>

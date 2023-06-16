@@ -50,17 +50,20 @@
         </Row>
       </div>
     </div>
+
+
     <footer class="w-1150px m-auto text-center bg-transparent opacity-60">
-      <a href="https://incubator.apache.org/" target="_blank" class="w-200px m-auto inline-block">
+
+      <a href="https://incubator.apache.org/" target="_blank" class="w-200px m-auto inline-block" v-if="false">
         <img
           src="/@/assets/svg/apache-incubator.svg"
           alt="Apache Incubator logo"
           class="w-200px my-10px mx-auto"
         />
       </a>
+
       <p class="text-light-100 pt-10px" style="border-top: 1px solid #dad7d7">
-        Copyright © 2022 The Apache Software Foundation. Apache StreamPark, StreamPark, and its
-        feather logo are trademarks of The Apache Software Foundation.
+        Copyright © 2016 北京图盟科技有限公司.
       </p>
     </footer>
   </div>
@@ -71,6 +74,7 @@
   import { useDesign } from '/@/hooks/web/useDesign';
   import { Row, Col } from 'ant-design-vue';
   import { SvgIcon } from '/@/components/Icon';
+
   defineProps({
     sessionTimeout: {
       type: Boolean,

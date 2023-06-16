@@ -16,15 +16,19 @@
 -->
 <template>
   <div class="anticon" :class="getAppLogoClass" @click="goHome">
-    <img src="/@/assets/images/logo.png" alt="logo" v-show="!showTitle" />
+    <img :src="logoImgMini" alt="logo" v-show="!showTitle" />
     <div class="truncate md:opacity-100" :class="getTitleClass" v-show="showTitle">
       <!-- {{ title }} -->
-      <img src="/@/assets/images/logo-text.png" class="logo-text" alt="logo" />
+      <img :src="logoImg2" class="logo-text" alt="logo" />
     </div>
   </div>
 </template>
 <script lang="ts" setup>
   import { computed, unref } from 'vue';
+  import logoImgMini from '/@/assets/images/logo-mini.svg';
+  import logoText from '/@/assets/images/logo-text.png';
+  import logoImg2 from '/@/assets/images/logo.svg';
+
   // import { useGlobSetting } from '/@/hooks/setting';
   import { useGo } from '/@/hooks/web/usePage';
   import { useMenuSetting } from '/@/hooks/setting/useMenuSetting';
